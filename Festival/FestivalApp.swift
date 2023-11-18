@@ -11,7 +11,7 @@ import SwiftUI
 struct FestivalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LineupView(viewModel: .init())
         }
     }
 }

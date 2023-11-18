@@ -8,23 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		2E0B4B0D2B0691AF0028972F /* FestivalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B0C2B0691AF0028972F /* FestivalApp.swift */; };
-		2E0B4B0F2B0691AF0028972F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B0E2B0691AF0028972F /* ContentView.swift */; };
+		2E0B4B0F2B0691AF0028972F /* LineupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B0E2B0691AF0028972F /* LineupView.swift */; };
 		2E0B4B112B0691B00028972F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0B4B102B0691B00028972F /* Assets.xcassets */; };
 		2E0B4B152B0691B00028972F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0B4B142B0691B00028972F /* Preview Assets.xcassets */; };
-		2E0B4B1F2B0691B00028972F /* FestivalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B1E2B0691B00028972F /* FestivalTests.swift */; };
-		2E0B4B292B0691B00028972F /* FestivalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B282B0691B00028972F /* FestivalUITests.swift */; };
-		2E0B4B2B2B0691B00028972F /* FestivalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B2A2B0691B00028972F /* FestivalUITestsLaunchTests.swift */; };
+		2E0B4B1F2B0691B00028972F /* FestivalServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B1E2B0691B00028972F /* FestivalServiceTests.swift */; };
+		2E0B4B3D2B07A2B40028972F /* Act.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B3C2B07A2B40028972F /* Act.swift */; };
+		2E0B4B412B07A3370028972F /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B402B07A3370028972F /* Util.swift */; };
+		2E0B4B442B07ACF20028972F /* LineupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B432B07ACF20028972F /* LineupViewModel.swift */; };
+		2E0B4B462B07D1F90028972F /* Act+Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B452B07D1F90028972F /* Act+Mocks.swift */; };
+		2E0B4B502B07E5490028972F /* ActDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B4F2B07E5490028972F /* ActDetailView.swift */; };
+		2E0B4B522B07EC040028972F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B512B07EC040028972F /* Location.swift */; };
+		2E0B4B542B07EC380028972F /* Location+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B532B07EC380028972F /* Location+UI.swift */; };
+		2E0B4B562B07FAEE0028972F /* ActDetailUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B552B07FAEE0028972F /* ActDetailUIModel.swift */; };
+		2E0B4B582B0802E90028972F /* Act+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B572B0802E90028972F /* Act+UI.swift */; };
+		2E0B4B5A2B08105C0028972F /* ActCompactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B592B08105C0028972F /* ActCompactView.swift */; };
+		2E0B4B5C2B08149F0028972F /* ActCompactUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B5B2B08149F0028972F /* ActCompactUIModel.swift */; };
+		2E0B4B632B0822C00028972F /* ScrollKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E0B4B622B0822C00028972F /* ScrollKit */; };
+		2E0B4B652B082CC80028972F /* FestivalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B642B082CC80028972F /* FestivalService.swift */; };
+		2E0B4B692B082E9F0028972F /* RealFestivalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B682B082E9F0028972F /* RealFestivalService.swift */; };
+		2E0B4B6B2B0830390028972F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B6A2B0830390028972F /* Router.swift */; };
+		2E0B4B6D2B0833F10028972F /* NetworkExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B6C2B0833F10028972F /* NetworkExecutor.swift */; };
+		2E0B4B6F2B0834320028972F /* RealNetworkExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B4B6E2B0834320028972F /* RealNetworkExecutor.swift */; };
+		2E0B4B712B0839D50028972F /* fest_lineup.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E0B4B702B0839D50028972F /* fest_lineup.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2E0B4B1B2B0691B00028972F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E0B4B012B0691AF0028972F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E0B4B082B0691AF0028972F;
-			remoteInfo = Festival;
-		};
-		2E0B4B252B0691B00028972F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2E0B4B012B0691AF0028972F /* Project object */;
 			proxyType = 1;
@@ -36,15 +45,29 @@
 /* Begin PBXFileReference section */
 		2E0B4B092B0691AF0028972F /* Festival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Festival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0B4B0C2B0691AF0028972F /* FestivalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalApp.swift; sourceTree = "<group>"; };
-		2E0B4B0E2B0691AF0028972F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E0B4B0E2B0691AF0028972F /* LineupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupView.swift; sourceTree = "<group>"; };
 		2E0B4B102B0691B00028972F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0B4B122B0691B00028972F /* Festival.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Festival.entitlements; sourceTree = "<group>"; };
 		2E0B4B142B0691B00028972F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E0B4B1A2B0691B00028972F /* FestivalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestivalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E0B4B1E2B0691B00028972F /* FestivalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalTests.swift; sourceTree = "<group>"; };
-		2E0B4B242B0691B00028972F /* FestivalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestivalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E0B4B282B0691B00028972F /* FestivalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalUITests.swift; sourceTree = "<group>"; };
-		2E0B4B2A2B0691B00028972F /* FestivalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E0B4B1E2B0691B00028972F /* FestivalServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalServiceTests.swift; sourceTree = "<group>"; };
+		2E0B4B3C2B07A2B40028972F /* Act.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Act.swift; sourceTree = "<group>"; };
+		2E0B4B402B07A3370028972F /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		2E0B4B432B07ACF20028972F /* LineupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupViewModel.swift; sourceTree = "<group>"; };
+		2E0B4B452B07D1F90028972F /* Act+Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Act+Mocks.swift"; sourceTree = "<group>"; };
+		2E0B4B4F2B07E5490028972F /* ActDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActDetailView.swift; sourceTree = "<group>"; };
+		2E0B4B512B07EC040028972F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2E0B4B532B07EC380028972F /* Location+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+UI.swift"; sourceTree = "<group>"; };
+		2E0B4B552B07FAEE0028972F /* ActDetailUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActDetailUIModel.swift; sourceTree = "<group>"; };
+		2E0B4B572B0802E90028972F /* Act+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Act+UI.swift"; sourceTree = "<group>"; };
+		2E0B4B592B08105C0028972F /* ActCompactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActCompactView.swift; sourceTree = "<group>"; };
+		2E0B4B5B2B08149F0028972F /* ActCompactUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActCompactUIModel.swift; sourceTree = "<group>"; };
+		2E0B4B642B082CC80028972F /* FestivalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalService.swift; sourceTree = "<group>"; };
+		2E0B4B682B082E9F0028972F /* RealFestivalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealFestivalService.swift; sourceTree = "<group>"; };
+		2E0B4B6A2B0830390028972F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2E0B4B6C2B0833F10028972F /* NetworkExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExecutor.swift; sourceTree = "<group>"; };
+		2E0B4B6E2B0834320028972F /* RealNetworkExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNetworkExecutor.swift; sourceTree = "<group>"; };
+		2E0B4B702B0839D50028972F /* fest_lineup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fest_lineup.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +75,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0B4B632B0822C00028972F /* ScrollKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2E0B4B172B0691B00028972F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E0B4B212B0691B00028972F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,8 +94,8 @@
 			children = (
 				2E0B4B0B2B0691AF0028972F /* Festival */,
 				2E0B4B1D2B0691B00028972F /* FestivalTests */,
-				2E0B4B272B0691B00028972F /* FestivalUITests */,
 				2E0B4B0A2B0691AF0028972F /* Products */,
+				2E0B4B382B06A8E00028972F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,7 +104,6 @@
 			children = (
 				2E0B4B092B0691AF0028972F /* Festival.app */,
 				2E0B4B1A2B0691B00028972F /* FestivalTests.xctest */,
-				2E0B4B242B0691B00028972F /* FestivalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				2E0B4B0C2B0691AF0028972F /* FestivalApp.swift */,
-				2E0B4B0E2B0691AF0028972F /* ContentView.swift */,
+				2E0B4B422B07ABE70028972F /* Networking */,
+				2E0B4B3B2B07A2A00028972F /* Models */,
+				2E0B4B4A2B07D5FD0028972F /* Views */,
 				2E0B4B102B0691B00028972F /* Assets.xcassets */,
 				2E0B4B122B0691B00028972F /* Festival.entitlements */,
 				2E0B4B132B0691B00028972F /* Preview Content */,
@@ -115,18 +133,55 @@
 		2E0B4B1D2B0691B00028972F /* FestivalTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E0B4B1E2B0691B00028972F /* FestivalTests.swift */,
+				2E0B4B1E2B0691B00028972F /* FestivalServiceTests.swift */,
+				2E0B4B402B07A3370028972F /* Util.swift */,
+				2E0B4B702B0839D50028972F /* fest_lineup.json */,
 			);
 			path = FestivalTests;
 			sourceTree = "<group>";
 		};
-		2E0B4B272B0691B00028972F /* FestivalUITests */ = {
+		2E0B4B382B06A8E00028972F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2E0B4B282B0691B00028972F /* FestivalUITests.swift */,
-				2E0B4B2A2B0691B00028972F /* FestivalUITestsLaunchTests.swift */,
 			);
-			path = FestivalUITests;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E0B4B3B2B07A2A00028972F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E0B4B3C2B07A2B40028972F /* Act.swift */,
+				2E0B4B572B0802E90028972F /* Act+UI.swift */,
+				2E0B4B452B07D1F90028972F /* Act+Mocks.swift */,
+				2E0B4B512B07EC040028972F /* Location.swift */,
+				2E0B4B532B07EC380028972F /* Location+UI.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E0B4B422B07ABE70028972F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2E0B4B6A2B0830390028972F /* Router.swift */,
+				2E0B4B6C2B0833F10028972F /* NetworkExecutor.swift */,
+				2E0B4B6E2B0834320028972F /* RealNetworkExecutor.swift */,
+				2E0B4B642B082CC80028972F /* FestivalService.swift */,
+				2E0B4B682B082E9F0028972F /* RealFestivalService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2E0B4B4A2B07D5FD0028972F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E0B4B0E2B0691AF0028972F /* LineupView.swift */,
+				2E0B4B432B07ACF20028972F /* LineupViewModel.swift */,
+				2E0B4B592B08105C0028972F /* ActCompactView.swift */,
+				2E0B4B5B2B08149F0028972F /* ActCompactUIModel.swift */,
+				2E0B4B4F2B07E5490028972F /* ActDetailView.swift */,
+				2E0B4B552B07FAEE0028972F /* ActDetailUIModel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +200,9 @@
 			dependencies = (
 			);
 			name = Festival;
+			packageProductDependencies = (
+				2E0B4B622B0822C00028972F /* ScrollKit */,
+			);
 			productName = Festival;
 			productReference = 2E0B4B092B0691AF0028972F /* Festival.app */;
 			productType = "com.apple.product-type.application";
@@ -167,24 +225,6 @@
 			productReference = 2E0B4B1A2B0691B00028972F /* FestivalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2E0B4B232B0691B00028972F /* FestivalUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E0B4B342B0691B00028972F /* Build configuration list for PBXNativeTarget "FestivalUITests" */;
-			buildPhases = (
-				2E0B4B202B0691B00028972F /* Sources */,
-				2E0B4B212B0691B00028972F /* Frameworks */,
-				2E0B4B222B0691B00028972F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E0B4B262B0691B00028972F /* PBXTargetDependency */,
-			);
-			name = FestivalUITests;
-			productName = FestivalUITests;
-			productReference = 2E0B4B242B0691B00028972F /* FestivalUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,10 +242,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 2E0B4B082B0691AF0028972F;
 					};
-					2E0B4B232B0691B00028972F = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 2E0B4B082B0691AF0028972F;
-					};
 				};
 			};
 			buildConfigurationList = 2E0B4B042B0691AF0028972F /* Build configuration list for PBXProject "Festival" */;
@@ -217,13 +253,15 @@
 				Base,
 			);
 			mainGroup = 2E0B4B002B0691AF0028972F;
+			packageReferences = (
+				2E0B4B612B0822C00028972F /* XCRemoteSwiftPackageReference "ScrollKit" */,
+			);
 			productRefGroup = 2E0B4B0A2B0691AF0028972F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2E0B4B082B0691AF0028972F /* Festival */,
 				2E0B4B192B0691B00028972F /* FestivalTests */,
-				2E0B4B232B0691B00028972F /* FestivalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,13 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E0B4B222B0691B00028972F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2E0B4B712B0839D50028972F /* fest_lineup.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +291,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0B4B0F2B0691AF0028972F /* ContentView.swift in Sources */,
+				2E0B4B582B0802E90028972F /* Act+UI.swift in Sources */,
+				2E0B4B3D2B07A2B40028972F /* Act.swift in Sources */,
+				2E0B4B442B07ACF20028972F /* LineupViewModel.swift in Sources */,
+				2E0B4B562B07FAEE0028972F /* ActDetailUIModel.swift in Sources */,
+				2E0B4B522B07EC040028972F /* Location.swift in Sources */,
+				2E0B4B692B082E9F0028972F /* RealFestivalService.swift in Sources */,
+				2E0B4B5A2B08105C0028972F /* ActCompactView.swift in Sources */,
+				2E0B4B6B2B0830390028972F /* Router.swift in Sources */,
+				2E0B4B462B07D1F90028972F /* Act+Mocks.swift in Sources */,
+				2E0B4B6D2B0833F10028972F /* NetworkExecutor.swift in Sources */,
+				2E0B4B652B082CC80028972F /* FestivalService.swift in Sources */,
+				2E0B4B542B07EC380028972F /* Location+UI.swift in Sources */,
+				2E0B4B502B07E5490028972F /* ActDetailView.swift in Sources */,
+				2E0B4B0F2B0691AF0028972F /* LineupView.swift in Sources */,
+				2E0B4B5C2B08149F0028972F /* ActCompactUIModel.swift in Sources */,
 				2E0B4B0D2B0691AF0028972F /* FestivalApp.swift in Sources */,
+				2E0B4B6F2B0834320028972F /* RealNetworkExecutor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0B4B1F2B0691B00028972F /* FestivalTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E0B4B202B0691B00028972F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E0B4B2B2B0691B00028972F /* FestivalUITestsLaunchTests.swift in Sources */,
-				2E0B4B292B0691B00028972F /* FestivalUITests.swift in Sources */,
+				2E0B4B1F2B0691B00028972F /* FestivalServiceTests.swift in Sources */,
+				2E0B4B412B07A3370028972F /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +327,6 @@
 			isa = PBXTargetDependency;
 			target = 2E0B4B082B0691AF0028972F /* Festival */;
 			targetProxy = 2E0B4B1B2B0691B00028972F /* PBXContainerItemProxy */;
-		};
-		2E0B4B262B0691B00028972F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E0B4B082B0691AF0028972F /* Festival */;
-			targetProxy = 2E0B4B252B0691B00028972F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -440,7 +474,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = share.Festival;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,7 +511,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = share.Festival;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,48 +563,6 @@
 			};
 			name = Release;
 		};
-		2E0B4B352B0691B00028972F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = share.FestivalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Festival;
-			};
-			name = Debug;
-		};
-		2E0B4B362B0691B00028972F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = share.FestivalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Festival;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,16 +593,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E0B4B342B0691B00028972F /* Build configuration list for PBXNativeTarget "FestivalUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E0B4B352B0691B00028972F /* Debug */,
-				2E0B4B362B0691B00028972F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E0B4B612B0822C00028972F /* XCRemoteSwiftPackageReference "ScrollKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/ScrollKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E0B4B622B0822C00028972F /* ScrollKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E0B4B612B0822C00028972F /* XCRemoteSwiftPackageReference "ScrollKit" */;
+			productName = ScrollKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E0B4B012B0691AF0028972F /* Project object */;
 }
